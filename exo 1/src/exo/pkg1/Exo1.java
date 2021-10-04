@@ -1,8 +1,9 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * Monnier Ambre et Lemaire Jean, TDA2, TP0, 29/09/2021
  */
-package exo.pkg1;
+package exo1;
+
+import java.util.Scanner;
 
 /**
  *
@@ -15,6 +16,18 @@ public class Exo1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
+        String prenom;
+        Scanner sc;
+        sc = new Scanner(System.in);
+        System.out.println("Bonjour, quel est votre prénom ?");
+        prenom = sc.nextLine();
+        
+        System.out.println("au revoir");
+        
+        
     }
     
-}
+}//coucou
+
